@@ -1,0 +1,71 @@
+hr{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+*{
+    margin: 0px;
+    border: 0px;
+}
+.heading{
+    color:rgb(27, 27, 71);
+    font-size: 50px;
+    display: inline-block;
+    height: 30px;
+}
+
+body{
+   background-color: #f5faff;
+   
+}
+#sec1{
+    color: rgb(27, 27, 67);
+    font-size: 60px;
+    padding-top: 65px;
+    margin-right: 20px;
+    color: rgba(30, 10, 102, 0.937);
+}
+img{
+    margin:10px;
+}
+#sec2{
+    margin-top: 85px;
+}
+.navbar{
+    padding-left: 1000px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    word-spacing: 10px;
+    display: inline;
+}
+.about{
+    font-size: 30px;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+   
+    height: 500px;
+}
+.Services{
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 400px;
+}
+.Contact{
+    line-height: 1cm;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+#sec3{
+    color: rgb(27, 27, 67);
+    font-size: 60px;
+    padding-top: 65px;
+    padding-left: 30px;
+    margin-right: 20px;
+    color: rgba(30, 10, 102, 0.937);
+}
