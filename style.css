@@ -77,3 +77,21 @@ img{
     height: 20px;
     width: 250px;
 }
+#image{
+    display: none
+}
+#order_btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(28, 103, 110);
+    color:white
+}
+#btnID{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgb(37 93 234);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}

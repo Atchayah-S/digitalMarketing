@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Payment page</title>
 </head>
 <body>
-    <center><h1>Complete your Payment<br>to place your order</h1>
-    <img src="qr.svg" title="Bank Name: Echelon"></center>
+    <center><h1 style="color: rgb(37 93 234);">Complete your Payment<br>to place your order</h1>
+    <img src="qr.svg" id="qr" title="Bank Name: Echelon"></center>
+   <Center> <img id="image" src="payment-done.png" alt="Payment done"title="Payment successful">
+        <button type="button" onclick="show()" id="btnID">
+            <b>Pay</b>
+        </button></Center>
+    
+        <script>
+            function show() {
+                document.getElementById('image')
+                    .style.display = "block";
+                document.getElementById('btnID')
+                    .style.display = "none";
+                    qr.style.display="none";
+            }
+        </script>
 </body>
 </html>
